@@ -204,8 +204,13 @@ p{
     margin: 0 -2.3rem;
 }
 
+/*Contact*/
 
+#contact h2{
+    font-weight: bold;
+}
 
+/*Footer*/
 
 footer{
     background: #ea7436;
