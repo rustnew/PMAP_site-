@@ -14,7 +14,7 @@ nav .navbar-brand{
     font-size: 2rem;
     font-weight: bold;
     color: #ea7436;
-    margin-right:  13rem;
+    margin-right:  20rem;
 }
 
 nav ul a{
@@ -58,6 +58,7 @@ h1{
     font-size: 2rem;
     padding-top: 15px;
 }
+
 .discours{
     background-color: #ea7436;
     color: #FFFFFF;
@@ -255,5 +256,9 @@ footer i{
 .logo {
     width: 10rem;
     margin: 1rem auto;
+}
+
+.container h2{
+    color: #ea7436;
 }
 
