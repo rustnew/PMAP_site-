@@ -232,6 +232,12 @@ footer .boxes P{
     text-transform: uppercase;
     padding:1rem 0;
 }
+footer a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding:1rem 0;
+    color: #fff;
+}
 
 footer .boxes .box{
     text-align: center;
@@ -262,3 +268,87 @@ footer i{
     color: #ea7436;
 }
 
+/*Services*/
+#service .headline{
+    text-transform: uppercase;
+    text-align: center;
+    color: #b4b2b2;
+    margin: 2rem 0;
+}
+
+#service .headline::before {
+    content: "";
+    height: 1rem;
+    width:  1.7rem;
+    border-radius: 2px;
+    border-radius: 0 1rem 0 1rem;
+    background-color: #b4b2b2;
+    position: absolute;
+    margin: 0 -2.3rem;
+}
+
+#service ul li{
+    list-style-type: none;
+}
+
+#service  ul li::before {
+    content: "";
+    height: 1rem;
+    width:  1.7rem;
+    border-radius: 2px;
+    border-radius: 0 1rem 0 1rem;
+    background-color: #ea7436;
+    position: absolute;
+    margin: 0 -2.3rem;
+}
+
+/*Engagements*/
+#Engagements ul li{
+    list-style-type: none;
+}
+
+#Engagements ul li::before {
+    content: "";
+    height: 1rem;
+    width:  1.7rem;
+    border-radius: 2px;
+    border-radius: 0 1rem 0 1rem;
+    background-color: #ea7436;
+    position: absolute;
+    margin: 0 -2.3rem;
+}
+#Valeurs ul li{
+    list-style-type: none;
+}
+
+#Valeurs ul li::before {
+    content: "";
+    height: 1rem;
+    width:  1.7rem;
+    border-radius: 2px;
+    border-radius: 0 1rem 0 1rem;
+    background-color: #ea7436;
+    position: absolute;
+    margin: 0 -2.3rem;
+}
+
+
+/*FAQ*/
+
+#FAQ .headline{
+    text-transform: uppercase;
+    text-align: center;
+    color: #b4b2b2;
+    margin: 2rem 0;
+}
+
+#FAQ .headline::before {
+    content: "";
+    height: 1rem;
+    width:  1.7rem;
+    border-radius: 2px;
+    border-radius: 0 1rem 0 1rem;
+    background-color: #b4b2b2;
+    position: absolute;
+    margin: 0 -2.3rem;
+}
